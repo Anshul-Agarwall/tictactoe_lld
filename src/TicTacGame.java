@@ -16,6 +16,7 @@ public class TicTacGame {
 		Player player2=new Player("Player2",circlepiece);
 		players.add(player1);
 		players.add(player2);
+//		players.add(player2);
 		gameboard=new Board(3);
 	}
 	public String startgame() {
